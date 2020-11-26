@@ -11,7 +11,7 @@
 
 Download : 
 
--Clone the GitHub repository : sudo git clone ...
+-Clone the GitHub repository : sudo git clone https://github.com/pllechat/DOS2
 
 
 Installation :

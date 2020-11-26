@@ -94,6 +94,8 @@ class Name:
 				if r == 0:
 					print("Target still responds")
 					self.infos.set_text("Target still responds")
+					self.wait(3)
+					self.infos.set_text("Attack in progress...")
 				else:
 					print(C2 + "\nAttack works !" + C0)
 					self.infos.set_text("Attack works")
@@ -108,6 +110,9 @@ class Name:
 			self.entry2.set_text("")
 			self.entry3.set_text("")
 			os.system("sudo bash banner.sh")
+			self.infos.set_text("Cleared")
+			self.wait(3)
+			self.infos.set_text("Ready ?")
 
 
 	def on_entry_activate(self, widget):
@@ -130,6 +135,8 @@ class Name:
 		self.start.set_label("Start")
 		cos = 0
 		self.show_cpu()
+		self.wait(3)
+		self.infos.set_text("Ready ?")
 
 	def wait(self, time_lapse):
 	    time_start = time.time()

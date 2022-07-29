@@ -6,7 +6,6 @@
         ██████╔╝  ╚██████╔╝  ███████║ 
         ╚═════╝    ╚═════╝   ╚══════╝    v1.0  
 
-	Denial of service attack tool       
 
 
 Download : 
